@@ -4,10 +4,6 @@ A clean and interactive web application that allows users to browse through popu
 
 **✨ Live Demo Link:** [**movie-collection208.netlify.app**](https://movie-collection208.netlify.app/)
 
----
-
-![Project Screenshot](https://i.imgur.com/your-screenshot-url.png)
-*(**Action:** Take a nice screenshot of your app, upload it to [Imgur](https://imgur.com/upload), and paste the link here.)*
 
 ## Features
 
