@@ -20,13 +20,10 @@ A clean and interactive web application that allows users to browse through popu
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/YourUsername/movie-browser-task.git](https://github.com/YourUsername/movie-browser-task.git)
-    cd movie-browser-task
+    git clone [https://github.com/Tharshan2004/movie-collection.git](https://github.com/Tharshan2004/movie-collection.git)
+    cd movie-collection
     ```
-2.  **Add Your API Key**
-    -   Open the `script.js` file.
-    -   Find the line `const API_KEY = 'YOUR_API_KEY_HERE';` and replace the placeholder with your personal TMDB API key.
-3.  **Open in Browser**
+2.  **Open in Browser**
     -   Simply open the `index.html` file in any modern web browser.
 
 ## Technical Note on "RecyclerView"
