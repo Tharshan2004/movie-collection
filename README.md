@@ -20,7 +20,7 @@ A clean and interactive web application that allows users to browse through popu
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/Tharshan2004/movie-collection.git](https://github.com/Tharshan2004/movie-collection.git)
+    git clone https://github.com/Tharshan2004/movie-collection.git
     cd movie-collection
     ```
 2.  **Open in Browser**
