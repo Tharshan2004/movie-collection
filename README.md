@@ -2,7 +2,7 @@
 
 A clean and interactive web application that allows users to browse through popular movie collections using data from The Movie DB (TMDB) API. This project was built as a technical demonstration for a job interview.
 
-**✨ Live Demo Link:** [**https://your-live-demo-url-here.netlify.app/**](https://your-live-demo-url-here.netlify.app/)
+**✨ Live Demo Link:** [**movie-collection208.netlify.app**](movie-collection208.netlify.app)
 
 ---
 
