@@ -1,10 +1,8 @@
 // --- 1. CONFIGURATION ---
 
-// IMPORTANT: Replace with your actual API key from TMDB
+
 const API_KEY = '630df3c1d1f3245c7f0ba84b3b475521';
 
-// Define the movie collections you want to choose from.
-// You can find more collection IDs by searching on the TMDB website.
 const COLLECTIONS = [
     { id: 10, name: 'Star Wars' },
     { id: 86311, name: 'The Avengers' },
@@ -23,11 +21,6 @@ const currentCollectionTitle = document.getElementById('current-collection-title
 
 // --- 3. CORE FUNCTIONS ---
 
-/**
- * Fetches and displays movies for a given collection ID.
- * @param {number} collectionId The ID of the collection to fetch.
- * @param {string} collectionName The name of the collection for the title.
- */
 async function fetchAndDisplayMovies(collectionId, collectionName) {
     // Show loading spinner and hide previous results/errors
     loader.style.display = 'block';
@@ -57,12 +50,7 @@ async function fetchAndDisplayMovies(collectionId, collectionName) {
     }
 }
 
-/**
- * Renders the movie data into HTML cards on the page.
- * @param {object} collectionData The full collection data from the API.
- */
 function displayMovies(collectionData) {
-    // Clear any previous movie cards
     movieListContainer.innerHTML = '';
     
     // Update the title
@@ -109,11 +97,9 @@ chooserContainer.addEventListener('click', (event) => {
         const collectionId = button.dataset.collectionId;
         const collectionName = button.dataset.collectionName;
 
-        // Remove 'active' class from all buttons
         document.querySelectorAll('.collection-btn').forEach(btn => {
             btn.classList.remove('active');
         });
-        // Add 'active' class to the clicked button
         button.classList.add('active');
         
         // Fetch movies for the selected collection
@@ -133,4 +119,5 @@ function initializeApp() {
 }
 
 // Start the application!
+
 initializeApp();
